@@ -1,0 +1,21 @@
+apiVersion: v2
+stacks:
+- id: nodejs-ui-stack
+  name: AngularNginxServerStack
+  version: 0.3.5
+  description: Runtime for Angular with Nginx Scoring UI app
+  license: Apache-2.0
+  language: nodejs
+  maintainers:
+  - name: Anonymous Masked Admin
+    email: admin@default.com
+    github-id: none
+  default-template: simple
+  src: https://github.com/intelsdi-x/stack-hub/release/latest/download/nodejs-ui-stack.v0.3.5.source.tar.gz
+  templates:
+  - id: simple
+    url: https://github.com/intelsdi-x/stack-hub/release/latest/download/nodejs-ui-stack.v0.3.5.templates.simple.tar.gz
+  requirements:
+    docker-version: '>= 17.09.0'
+    appsody-version: '>= 0.2.7'
+  image: default-route-openshift-image-registry.apps.ocp.4x/appsody/nodejs-ui-stack:0.3.5

@@ -1,0 +1,13 @@
+[
+	{
+		"displayName": "Stack-Hub AngularNginxServerStack simple template",
+		"description": "Runtime for Angular with Nginx Scoring UI app",
+		"language": "nodejs",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/intelsdi-x/stack-hub/releases/download/latest/nodejs-ui-stack.v0.3.5.templates.simple.tar.gz",
+		"links": {
+			"self": "/devfiles/nodejs-ui-stack/devfile.yaml"
+		}
+	}
+]
